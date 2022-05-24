@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Meal App</title>
+</head>
+<body>
+
+        <!-- heading  -->
+    <h1>The Meals App</h1>
+
+    <!-- search bars  -->
+    <div id="searchBar">
+        <!-- input bar -->
+        <input onkeyup="keyupHandle()" type="text" id="searchtext" placeholder="Serach.. ">
+        <!-- button  -->
+        <button type="button">Search</button>
+
+        <!--search results  -->
+        <ul id="search-result"></ul>
+    </div>
+
+
+    <!-- Favourites page redirection  -->
+    <a href="Components/favorites.html" > <button id="title-fav"> Favourites</button> </a>
+
+    <!-- main flex  -->
+    <div id="mainFlex">
+        <!-- categoty div  -->
+        <div id="category" class="centerLists">
+            <h4>Select by Category</h4>
+
+            <!-- select input for categoty  -->
+            <select onchange="cat_click(this.value)" id="select-cat"></select>
+
+            <!-- category list  -->
+            <div  id="cat-list">                
+            </div>
+        </div>
+
+        <div id="fav-div" style="display: none;">
+            <div id="fav-list">                
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+    <!-- scripts -->
+    
+</body>
+</html>
