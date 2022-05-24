@@ -2,7 +2,8 @@
 
 This is a Meal application created using HTML, CSS and Vanilla JavaScript, We can start, see all the meal recipe through this app. can see the ingredients of recipe as well image of it. we can save recipes to favorites list
 
-This Meal app is also hosted using github on 
+This Meal app is also hosted using github on -
+https://github.com/Abhishek143895/TheMealsApp.git
 
 We can perform following functions-
 
@@ -19,4 +20,4 @@ We can perform following functions-
 - Recipe youtube video links
 - Sorted content by category
 
-## Auther:www.linkedin.com/in/abhishek-srivastava-933b6a19a
+## Auther: www.linkedin.com/in/abhishek-srivastava-933b6a19a
